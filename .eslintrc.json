@@ -1,3 +1,33 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "standard"],
+  "rules": {
+    "quotes": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "indent": [
+      "warn",
+      2
+    ],
+    "no-unused-vars": "warn",
+    "no-multiple-empty-lines": "warn",
+    "eol-last": "warn",
+    "react/display-name": "off",
+    "@next/next/no-img-element": "off",
+    "space-before-blocks": "warn",
+    "semi": "warn",
+    "keyword-spacing": "warn",
+    "comma-dangle": "warn",
+    "object-curly-spacing": "warn",
+    "no-trailing-spaces": "warn",
+    "space-before-function-paren": "warn",
+    "camelcase": "off",
+    "brace-style": "warn",
+    "padded-blocks": "warn",
+    "dot-notation": "off",
+    "key-spacing": "warn",
+    "space-in-parens": "warn",
+    "no-empty": "warn",
+    "no-multi-spaces": "warn",
+    "block-spacing": "warn"
+  }
 }
